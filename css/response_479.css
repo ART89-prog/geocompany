@@ -1,0 +1,90 @@
+@media (max-width: 479px) {
+
+    .header_mode {
+        margin-left: 0;
+    }
+    .header_logo {
+        margin-right: 0px;
+    }
+    .header_logo-name {
+        padding-right: 10px;
+    }
+    .header_logo-text {
+        padding-left: 15px;
+    }
+    .header_img-mobile img {
+        width: 100%;
+    }
+    .report_info-adress br {
+        display: none;
+    }
+    .report_info-right {
+        padding: 20px 17px;
+    }
+    .report_info-head a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .report_info-contact-text {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .report_info-name {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+    .report_info-name span {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .report_info-code {
+        width: 90px;
+        height: auto;
+        margin: 0 auto 40px;
+    }
+    .report_info-code img {
+        width: 100%;        
+        display: block;
+    }
+    .report_info-print {
+        width: 90px;
+        height: auto;
+    }
+    .report_info-print img {
+        width: 100%;        
+        display: block;
+    }
+    .action_item-left .action_item-info {
+        max-width: 300px;
+    }
+    .action_item-right .action_item-info {
+        max-width: 300px;
+    }
+    label.checkbox a {
+        white-space: nowrap;
+    }
+    .calculation label.checkbox {
+        line-height: 18px;
+        display: block;
+    }
+    .calculation_form-line .btn {
+        margin-top: 15px;
+    }
+    .reviews_item-texts {
+        margin-left: 0;
+    }
+    .contacts_item {
+        margin-bottom: 35px;
+    }
+    .report {
+        padding: 40px 0 40px;
+    }
+    .report_info-text {
+        margin-bottom: 15px;
+    }
+    .report_form {
+        margin-top: 25px;
+    }
+ 
+
+}

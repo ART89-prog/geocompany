@@ -1,0 +1,255 @@
+@media (max-width: 749px){      
+ 
+    .header_wrap {
+        flex-direction: column;
+    }
+    .header_mode {
+        order: 0;
+        margin-bottom: 40px;
+    }
+    .header_title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .header_img-mob {
+        display: none !important;
+    }
+    .header_text {
+        max-width: 100%;
+    }
+    .header_action {
+        max-width: 100%;
+    }
+    .form-title {
+        max-width: 100%;
+    }
+    .header_img-mobile {
+        display: block !important;
+        text-align: center;
+    }
+    .header .form .line {
+        flex-direction: column;
+    }
+    .header .form .field {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 12px;
+    }
+    .header .form .field:last-child {
+        max-width: 100%;
+        width: 100%;
+    }
+    .header::after {
+        display: none;
+    }
+    .header::before {
+        width: 772px;
+        height: 772px;
+        top: 801px;
+        right: -147px;
+    }
+    .header_action {
+        margin-bottom: 55px;
+    }
+    .header_box {
+        margin-top: 55px;
+    }
+    .benefits_items > * {
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .benefits_items {
+        margin-left: 0px;
+    }
+    .benefits_item-text br {
+        display: none;
+    }
+    .benefits_item {
+        margin-bottom: 46px;
+    }
+    .title {
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 28px;
+    }
+    .report_info {
+        flex-direction: column;
+    }
+    .report_info-left {
+        margin-right: 0;
+        width: 100%;
+    }
+    .report_info-text br {
+        display: none;
+    }
+    .report_info-right {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .geology_items-top {
+        margin-left: 0;
+    }
+    .geology_items-top > * {
+        margin-left: 0;
+        width: 100%;
+    }
+    .action_items {
+        flex-direction: column;
+    }
+    .action_item-right .action_item-info {
+        max-width: 410px;
+    }
+    .action_item-left .action_item-info {
+        max-width: 410px;
+    }
+    .stage_items {
+        margin-left: 0;
+    }
+    .stage_items > * {
+        margin-left: 0;
+        width: 100%;
+    }
+    .stage_item-info {
+        margin-left: 0px;
+    }
+    .calculation_form-line {
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+    .calculation_form-line > * {
+        margin-left: 0;
+        width: 100%;
+    }
+    .calculation_checkbox {
+        width: fit-content;
+    }
+    .calculation .btn {
+        width: 100%;
+    }
+    .guide_items-left {
+        margin-right: 0;
+    }
+    .guide_items-left .guide_item {
+        flex-direction: column;
+    }
+    .guide_items-left .guide_item-photo {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto 27px;
+    }
+    .guide_items-right {
+        flex-direction: column;
+    }
+    .guide_items-right > * {
+        width: 100%;
+    }
+    .guide_item-post br {
+        display: none;
+    }
+    .guide_items-right .guide_item-text {
+        max-width: 100%;
+    }
+    .guide_items-right .guide_item {
+        margin-bottom: 54px;
+    }
+    .certificate_items {
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+    .certificate_items > * {
+        margin-left: 0;
+        width: 100%;
+    }
+    .certificate_item-text {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 28px;
+    }
+    .contract .report_form-mob {
+        display: none !important;
+    }
+    .contract .report_form {
+        display: block !important;
+    }
+    .contract .report_info-left {
+        width: 100%;
+        margin-right: 0;
+    }
+    .contract .report_form-line {
+        flex-direction: column-reverse;
+        margin-left: 0px;
+    }
+    .contract .report_form-line > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 19px;
+    }
+    .contract_info-right {
+        width: 100%;
+    }
+    .partners_items {
+        margin-left: 0px;
+    }
+    .partners_item {
+        width: calc(100%/2 - 20px);
+        margin-bottom: 20px;
+    }
+    .contacts .map_wrap {
+        height: 327px;
+    }
+    .contacts_items {
+        column-count: 1;
+    }
+    .contacts_item {
+        margin-bottom: 40px;
+    }
+    .calculation-bottom .btn {
+        margin-top: 15px;
+    }
+    .footer_wrap {
+        flex-direction: column;
+    }
+    .footer_author {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .header {
+        padding: 24px 0 10px;
+    }
+    .benefits_item {
+        margin-bottom: 33px;
+    }
+    .slick-dots {
+        margin-top: 40px;
+    }
+    .reviews {
+        padding: 45px 0 20px;
+    }
+    .geology_item-title br {
+        display: none;
+    }
+
+
+    
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

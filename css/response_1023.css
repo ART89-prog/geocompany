@@ -1,0 +1,608 @@
+@media (max-width: 1740px) {
+    .slick-prev {
+        left: 0;
+        transform: translateY(-95px);
+    }
+    .slick-next {
+        right: 0;
+        transform: translateY(-95px);
+    }
+    .reviews .slick-prev {
+        left: -1%;
+    }
+    .reviews .slick-next {
+        right: -1%;
+    }
+}
+
+
+@media (max-width: 1676px) {
+    .action_item-left .action_item-info {
+        max-width: 461px;
+        top: 50px;
+        left: calc(50% - 260px);
+    } 
+    .action_item-right .action_item-info {
+        max-width: 461px;
+        top: 50px;
+        right: calc(50% - 215px);
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .guide_items {
+        flex-direction: column;
+    }
+    .guide_items-right {
+        display: flex;
+        margin-left: -30px;
+        width: 100%;
+    }
+    .guide_items-right > * {
+        width: calc(100%/2 - 30px);
+        margin-left: 30px;
+    }
+    .guide_items-left {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .report_info-left {
+        width: calc(100% - 516px);
+    }
+    .report_form {
+        padding-right: 0px;
+    }
+    .laboratory_info {
+        width: calc(100% - 348px);
+        margin-top: 0px;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .contract .report_info-left {
+        padding-left: 0;     
+        width: calc(100% - 572px); 
+        margin-right: 15px; 
+    }
+    .contract_info-right {
+        padding-right: 0;
+    }
+    .contacts_right {
+        width: 670px;
+        margin-left: 20px;
+    }
+    .contract .report_form {
+        padding-right: 0;
+    }
+}
+
+
+@media (max-width: 1170px) {
+    .action_item-right .action_item-info {
+        max-width: 430px;
+        top: 50px;
+        right: 0;
+        left: 35px;
+    }    
+    .action_item-left .action_item-info {
+        max-width: 430px;
+        top: 50px;
+        right: 0;
+        left: 35px;
+    }   
+    .header_mode {
+        margin-right: 0px;
+        order: 1;
+        margin-left: auto;
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .header_wrap {
+        flex-wrap: wrap;
+    }
+    .header_mode br {
+        display: none;
+    }
+    .report_form-line-bottom {
+        flex-direction: column-reverse;
+    }
+    .report .btn {
+        width: 100%;
+        max-width: 100%;
+    }
+    .report_form-line-bottom .report_form-field {
+        width: 100%;
+    }
+    .report label.checkbox br,
+    .contract label.checkbox br {
+        display: none;
+    }
+    .laboratory_wrap {
+        flex-direction: column;
+    }
+    .laboratory_img {
+        margin-right: 0px;
+        width: 100%;
+        height: auto;
+    }
+    .laboratory_img img {
+        height: auto;
+    }
+    .laboratory_info {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .contract .report_info-text {
+        display: none;
+    }
+    .contacts_wrapper {
+        flex-direction: column;
+    }
+    .contacts .map_wrap {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contacts_right {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .geology_item-title {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .header_box {
+        margin-top: 80px;
+    }
+    .header {
+        padding: 24px 0 100px;
+    }
+    .report {
+        padding: 80px 0 80px;
+    }
+    .laboratory {
+        padding: 50px 0 50px;
+    }
+    .geology {
+        padding: 50px 0 50px;
+    }
+    .action {
+        padding: 0px 0 40px;
+    }
+    .stage_title {
+        margin-bottom: 55px;
+    }
+    .calculation {
+        padding: 20px 0 50px;
+    }
+    .guide {
+        padding: 50px 0 0px;
+    }
+    .specialist {
+        padding: 40px 0 40px;
+    }
+    .certificate {
+        padding: 50px 0 30px;
+    }
+    .contract::before {
+        bottom: 205px;
+    }
+    .contract::after {
+        bottom: -74px;
+    }
+    .contract {
+        padding: 60px 0 0px;
+    }
+    .reviews {
+        padding: 50px 0 30px;
+    }
+    .service::before {
+        bottom: 0;
+    }
+    .partners {
+        padding: 30px 0 30px;
+    }
+    .contacts {
+        padding: 50px 0 50px;
+        z-index: 6;
+        position: relative;
+    }
+    .calculation-bottom {
+        padding: 20px 0 30px;
+    }
+
+}
+
+
+@media (max-width: 1023px) {
+    .header .callback-btn-mob {
+        display: block !important;
+        padding: 14px 18px;
+        background: #F68100;
+        box-shadow: 0px 10px 19px rgba(246, 129, 0, 0.26);
+        border-radius: 10px;    
+    }
+    .header .callback-btn {
+        display: none;
+    }
+    .header_img {
+        display: none;
+    }
+    .header_info {
+        max-width: 100%;
+        width: 100%;
+    }
+    .header_title {
+        max-width: 100%;
+        width: 100%;
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .header_text br {
+        display: none;
+    }
+    .header_text {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 30px;
+        max-width: 430px;
+        width: 100%;
+    }
+    .header_action {
+        padding: 18px 17px;
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 430px;
+        width: 100%;
+        margin-bottom: 73px;
+    }
+    .form-title {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 15px;
+        max-width: 430px;
+        width: 100%;
+    }
+    .header_img-mob {
+        display: block !important;
+        width: 285px;
+        height: auto;
+        position: absolute;
+        bottom: 19%;
+        right: 0;
+    }
+    .header_img-mob img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .benefits_items {
+        margin-left: -30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .benefits_items > * {
+        margin-left: 30px;
+        width: calc(100%/2 - 30px);
+        margin-bottom: 30px;
+    }
+    .benefits_item:last-child {
+        margin-bottom: 0;
+    }
+    .title {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 33px;
+    }
+    .title br {
+        display: none;
+    }
+    .report_info-title-mob {
+        display: block !important;
+    }
+    .report_info-list-mob {
+        display: block !important;
+    }
+    .report .report_info-left ul {
+        display: none;
+    }
+    .report .report_info-left .report_info-title {
+        display: none;
+    }
+    .report_info-left {
+        width: calc(100% - 334px);
+        margin-right: 20px;
+    }
+    .report_info-text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .report_form-line {
+        flex-direction: column-reverse;
+        margin-left: 0px;
+    }
+    .report_form-line > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .report_info-head-contact a {
+        font-size: 17px;
+        line-height: 18px;
+        white-space: nowrap;
+    }
+    .report_info-head a {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .report_info-head-logo img {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .report_info-right {
+        padding: 25px;
+    }
+    .report_info-name span {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .report_info-adress {
+        font-size: 17px;
+        line-height: 21px;
+        margin-bottom: 15px;
+    }
+    .report_info-right a.report_info-link {
+        width: 100%;
+        margin: 0 auto 13px;
+    }
+    .report_info-name {
+        font-size: 34px;
+        line-height: 28px;
+        margin-bottom: 35px;
+    }
+    .report_info-contact-text {
+        font-size: 15px;
+        line-height: 21px;
+        margin-top: 0px;
+    }
+    .report_info-head {
+        margin-bottom: 60px;
+    }
+    .report_info-code img {
+        margin: 0 auto 44px;
+    }
+    .report_info-print {
+        bottom: 15px;
+        right: 15px;
+    }
+    .report::after {
+        display: none;
+    }
+    .report_info {
+        align-items: flex-start;
+        margin-top: 25px;
+    }
+    .laboratory_info-action {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .laboratory_info-text {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+    .laboratory ul li {
+        margin-bottom: 10px;
+    }
+    .geology_items-top {
+        flex-wrap: wrap;
+    }
+    .geology_items-top > * {
+        width: calc(100%/2 - 20px);
+        margin-bottom: 20px;
+    }
+    .geology_item-title {
+        font-size: 22px;
+    }
+    .action_item-left .action_item-info {
+        max-width: 310px;
+        left: 30px;
+    }
+    .action_item-right .action_item-info {
+        max-width: 310px;
+        left: 30px;
+    }
+    .stage_item {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .stage_items {
+        margin-top: 100px;
+    }
+    .guide_items-left .guide_item-photo {
+        width: 203px;
+        height: 203px;        
+    }
+    .guide_items-right .guide_item-photo {
+        width: 143px;
+        height: 143px; 
+        margin-bottom: 16px;       
+    }
+    .guide_items-right .guide_item {
+        flex-direction: column;
+    }
+    .guide_item-name {
+        font-size: 20px;
+    }
+    .certificate_item-wrap {
+        margin: 0;
+    }
+    .certificate_item-text {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 17px;
+    }
+    .contract_info-right {
+        width: calc(100% - 410px);
+        margin-right: 0;
+    }
+    .contract_info-right img {
+        height: auto;
+        width: 100%;
+    }
+    .report_info-left {
+        width: 370px;
+    }
+    .contract .report_info {
+       position: relative;
+       margin-top: 0;
+       align-items: center;
+    }
+    .contract .report_info-left {
+        width: 410px;
+        margin-right: 15px;
+    }
+    .contract ul li {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+    .contract::after {
+        display: none;
+    }
+    .contract .report_info-left {
+        margin-top: 0;
+    }
+    .contract .report_form {
+        display: none;
+    }
+    .contract .report_form-mob {
+        display: block !important;
+        margin-top: 30px;
+    }
+    .contract .report_form-line {
+        flex-direction: row;
+        margin-left: -15px;
+    }
+    .contract .report_form-line > * {
+        width: calc(100%/2 - 15px);
+        margin-left: 15px;
+        margin-bottom: 19px;
+    }
+    .contract .report_form-line-bottom {
+        flex-direction: column-reverse;
+    }
+    .contract label.checkbox br {
+        display: none;
+    }
+    .reviews_item-text {
+        font-size: 18px;
+    }
+    .reviews_item {
+        flex-wrap: wrap;
+    }
+    .reviews_item-texts {
+        width: 100%;
+        margin-left: auto;
+    }
+    .reviews_item-avatar {
+        width: 49px;
+        height: 49px;
+        flex-shrink: 0;
+    }
+    .reviews_item-name {
+        font-size: 19px;
+    }
+    .reviews_item {
+        max-width: 100%;
+        padding: 39px 50px 38px 68px;
+    }
+    .reviews_item-info {
+        margin-left: 15px;
+    }
+    .partners_items {
+        flex-wrap: wrap;
+    }
+    .partners_item {
+        width: calc(100%/3 - 20px);
+        margin-bottom: 20px;
+    }
+    .footer_author {
+        text-align: end;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .stage_item-title {
+        margin-top: 35px;
+    }
+    .contract::before {
+        bottom: 219px;
+    }
+    .header_box {
+        margin-top: 68px;
+    }
+    .header {
+        padding: 24px 0 63px;
+    }
+    .benefits {
+        padding: 35px 0 41px;
+    }
+    .report {
+        padding: 63px 0 63px;
+    }
+    .laboratory {
+        padding: 22px 0 25px;
+    }
+    .geology {
+        padding: 32px 0 10px;
+    }
+    .action {
+        padding: 0px 0 20px;
+    }
+    .stage {
+        padding: 30px 0 0px;
+    }
+    .calculation {
+        padding: 0px 0 30px;
+    }
+    .guide {
+        padding: 30px 0 0px;
+    }
+    .contract {
+        padding: 30px 0 50px;
+    }
+    .reviews {
+        padding: 46px 0 30px;
+    }
+    .contacts {
+        padding: 15px 0 50px;
+    }
+    .calculation-bottom::after {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 880px){      
+ 
+    .header_text {
+        max-width: 300px;
+        width: 100%;
+    }
+    .header_action {
+        max-width: 300px;
+        width: 100%;
+    }
+    .form-title {
+        max-width: 350px;
+        width: 100%;
+    }
+    
+}
