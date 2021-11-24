@@ -229,6 +229,14 @@
     .geology_item-title br {
         display: none;
     }
+    .slick-prev {
+        top: 22%;
+        transform: translateY(0px);
+    }
+    .slick-next {
+        top: 22%;
+        transform: translateY(0px);
+    }
 
 
     
