@@ -230,12 +230,10 @@
         display: none;
     }
     .slick-prev {
-        top: 22%;
-        transform: translateY(0px);
+        transform: translateY(-50%);
     }
     .slick-next {
-        top: 22%;
-        transform: translateY(0px);
+        transform: translateY(-50%);
     }
 
 

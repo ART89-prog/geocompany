@@ -1666,7 +1666,6 @@ input[type=checkbox]:checked + label.checkbox:after {
   max-width: 1196px;
   width: 100%;
   margin: 0 auto;
-  min-height: 425px;
 } 
 .reviews_item-top {
   display: flex;
@@ -1980,9 +1979,9 @@ input[type=checkbox]:checked + label.checkbox:after {
   position: relative;
 }
 .modal .modal_title {
-  font-weight: 600;
-  font-size: 21px;
-  line-height: 27px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
   color: #000000;
   margin-bottom: 22px;
 }
