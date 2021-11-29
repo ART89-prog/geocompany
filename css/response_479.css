@@ -15,6 +15,16 @@
     .header_img-mobile img {
         width: 100%;
     }
+    .header .callback-btn-mob {
+        display: none !important;   
+    }
+    .header .btn-mob-phone {
+        display: block !important; 
+        padding: 14px 18px;
+        background: #F68100;
+        box-shadow: 0px 10px 19px rgba(246, 129, 0, 0.26);
+        border-radius: 10px;  
+    }
     .report_info-adress br {
         display: none;
     }

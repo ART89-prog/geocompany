@@ -67,7 +67,11 @@
         margin-right: 15px; 
     }
     .contract_info-right {
-        padding-right: 0;
+        margin-right: 0;
+        width: 550px;
+    }
+    .contract_info-right img {
+        width: 100%;
     }
     .contacts_right {
         width: 670px;
