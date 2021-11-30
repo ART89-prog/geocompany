@@ -25,6 +25,15 @@
         box-shadow: 0px 10px 19px rgba(246, 129, 0, 0.26);
         border-radius: 10px;  
     }
+    .header_checkbox {
+        margin-bottom: 15px;
+    }
+    .header_checkbox label.checkbox:before {
+        top: 3px;
+    }
+    .header_checkbox label.checkbox:after {
+        top: 10px;
+    }
     .report_info-adress br {
         display: none;
     }
@@ -94,6 +103,12 @@
     }
     .report_form {
         margin-top: 25px;
+    }
+    .geology_item:hover .geology_item-bg {
+        display: none;
+    }
+    .geology_item .geology_item-bg {
+        bottom: -5%;
     }
  
 
