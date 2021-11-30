@@ -108,7 +108,7 @@
         background: none;
     }
     .geology_item .geology_item-bg {
-        bottom: -5%;
+        bottom: 0;
     }
     .geology_item-bg .link {
         opacity: 1;
