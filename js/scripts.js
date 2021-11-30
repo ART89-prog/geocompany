@@ -1,5 +1,24 @@
 // Маска ввода
 $(() => {
+
+	array_month = ['января!','февраля!','марта!','апреля!','мая!','июня!', 'июля!','августа!','сентября!','октября!','ноября!','декабря!'];
+	date = new Date();
+	tuesday = new Date();
+	frieday = new Date();
+	if(date.getDay()){
+		tuesday.setDate(date.getDate() + 2 - date.getDay())
+		frieday.setDate(date.getDate() + 5 - date.getDay())
+	} 
+	if(new Date().getDay()==3 || new Date().getDay() == 4 || new Date().getDay()==5)
+	{
+		$("#data").html(frieday.getDate() + " " + array_month[date.getMonth()]);
+	}
+	else
+	{
+		$("#data").html(tuesday.getDate() + " " + array_month[date.getMonth()]);
+	}	
+
+
 	$('input[type=tel]').inputmask('+7 (999) 999-99-99')
 
 
