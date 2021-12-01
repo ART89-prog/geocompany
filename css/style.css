@@ -2041,5 +2041,18 @@ input[type=checkbox]:checked + label.checkbox:after {
 .modal {
 	display: none;
 }
+.modal_checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 18px;
+}
+/* .modal_checkbox label.checkbox:before {
+  top: -7px;
+}
+.modal_checkbox label.checkbox:after {
+  top: 0;
+} */
 
 /* МОДАЛЬНОЕ ОКНО END */

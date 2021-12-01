@@ -104,15 +104,7 @@
     .report_form {
         margin-top: 25px;
     }
-    .geology_item:hover .geology_item-bg {       
-        background: none;
-    }
-    .geology_item .geology_item-bg {
-        bottom: 0;
-    }
-    .geology_item-bg .link {
-        opacity: 1;
-    }
+
  
 
 }

@@ -590,6 +590,15 @@
     .calculation-bottom::after {
         display: none;
     }
+    .geology_item:hover .geology_item-bg {       
+        background: none;
+    }
+    .geology_item .geology_item-bg {
+        bottom: 0;
+    }
+    .geology_item-bg .link {
+        opacity: 1;
+    }
 
 }
 
